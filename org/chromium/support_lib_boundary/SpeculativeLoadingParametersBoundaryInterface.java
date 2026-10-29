@@ -1,0 +1,18 @@
+package org.chromium.support_lib_boundary;
+
+import java.lang.reflect.InvocationHandler;
+import java.util.Map;
+
+/* JADX INFO: compiled from: r8-map-id-c7a6dd88a2b5a3bd0987de47dc6d7e9548d0e3d2a056e45227e1b1f5524e3cde */
+/* JADX INFO: loaded from: classes.dex */
+public interface SpeculativeLoadingParametersBoundaryInterface {
+    Map<String, String> getAdditionalHeaders();
+
+    InvocationHandler getNoVarySearchData();
+
+    default Integer getVariationsId() {
+        return null;
+    }
+
+    boolean isJavaScriptEnabled();
+}

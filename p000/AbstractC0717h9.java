@@ -1,0 +1,30 @@
+package p000;
+
+/* JADX INFO: renamed from: h9 */
+/* JADX INFO: compiled from: r8-map-id-c7a6dd88a2b5a3bd0987de47dc6d7e9548d0e3d2a056e45227e1b1f5524e3cde */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class AbstractC0717h9 {
+
+    /* JADX INFO: renamed from: a */
+    public static final rf3 f20439a = rf3.m10326a(new C0670g((byte) 19), C0603e9.class, InterfaceC0517c7.class);
+
+    /* JADX INFO: renamed from: b */
+    public static final hj2 f20440b;
+
+    /* JADX INFO: renamed from: c */
+    public static final C0482b8 f20441c;
+
+    /* JADX INFO: renamed from: d */
+    public static final C0518c8 f20442d;
+
+    /* JADX INFO: renamed from: e */
+    public static final int f20443e;
+
+    static {
+        C0567d9.m4405B();
+        f20440b = new hj2("type.googleapis.com/google.crypto.tink.AesGcmKey", InterfaceC0517c7.class, qc2.f28376c);
+        f20441c = new C0482b8();
+        f20442d = new C0518c8();
+        f20443e = 2;
+    }
+}

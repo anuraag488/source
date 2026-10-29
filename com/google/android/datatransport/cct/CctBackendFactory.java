@@ -1,0 +1,95 @@
+package com.google.android.datatransport.cct;
+
+import android.content.Context;
+import android.net.ConnectivityManager;
+import java.lang.invoke.VarHandle;
+import p000.AbstractC0013ac;
+import p000.AbstractC0472az;
+import p000.C0463aq;
+import p000.C0500bq;
+import p000.C0547cq;
+import p000.C0549cs;
+import p000.C0551cu;
+import p000.C0583dq;
+import p000.C0587du;
+import p000.C0621eq;
+import p000.C0623es;
+import p000.C0626eu;
+import p000.C0660fq;
+import p000.C0662fs;
+import p000.C0697gq;
+import p000.C0699gs;
+import p000.C0734hq;
+import p000.C0771iq;
+import p000.C0848ku;
+import p000.C0885lu;
+import p000.C0959nu;
+import p000.C1380yt;
+import p000.C1413zp;
+import p000.ar0;
+import p000.da0;
+import p000.ja0;
+import p000.jp4;
+import p000.kn2;
+import p000.m70;
+import p000.n03;
+import p000.nc1;
+import p000.nf0;
+import p000.nn2;
+import p000.v50;
+import p000.vc1;
+import p000.w92;
+import p000.wc1;
+
+/* JADX INFO: compiled from: r8-map-id-c7a6dd88a2b5a3bd0987de47dc6d7e9548d0e3d2a056e45227e1b1f5524e3cde */
+/* JADX INFO: loaded from: classes.dex */
+public class CctBackendFactory {
+    public jp4 create(ar0 ar0Var) {
+        Context context = ((C1380yt) ar0Var).f35508a;
+        C1380yt c1380yt = (C1380yt) ar0Var;
+        ja0 ja0Var = c1380yt.f35509b;
+        ja0 ja0Var2 = c1380yt.f35510c;
+        m70 m70Var = new m70();
+        w92 w92Var = new w92();
+        C0463aq c0463aq = C0463aq.f14773a;
+        w92Var.m12169b(AbstractC0472az.class, c0463aq);
+        w92Var.m12169b(C0623es.class, c0463aq);
+        C0734hq c0734hq = C0734hq.f20774a;
+        w92Var.m12169b(nn2.class, c0734hq);
+        w92Var.m12169b(C0885lu.class, c0734hq);
+        C0500bq c0500bq = C0500bq.f15500a;
+        w92Var.m12169b(da0.class, c0500bq);
+        w92Var.m12169b(C0662fs.class, c0500bq);
+        C1413zp c1413zp = C1413zp.f36225a;
+        w92Var.m12169b(AbstractC0013ac.class, c1413zp);
+        w92Var.m12169b(C0549cs.class, c1413zp);
+        C0697gq c0697gq = C0697gq.f20016a;
+        w92Var.m12169b(kn2.class, c0697gq);
+        w92Var.m12169b(C0848ku.class, c0697gq);
+        C0547cq c0547cq = C0547cq.f16372a;
+        w92Var.m12169b(nf0.class, c0547cq);
+        w92Var.m12169b(C0699gs.class, c0547cq);
+        C0660fq c0660fq = C0660fq.f19224a;
+        w92Var.m12169b(wc1.class, c0660fq);
+        w92Var.m12169b(C0626eu.class, c0660fq);
+        C0621eq c0621eq = C0621eq.f18372a;
+        w92Var.m12169b(vc1.class, c0621eq);
+        w92Var.m12169b(C0587du.class, c0621eq);
+        C0771iq c0771iq = C0771iq.f21631a;
+        w92Var.m12169b(n03.class, c0771iq);
+        w92Var.m12169b(C0959nu.class, c0771iq);
+        C0583dq c0583dq = C0583dq.f17275a;
+        w92Var.m12169b(nc1.class, c0583dq);
+        w92Var.m12169b(C0551cu.class, c0583dq);
+        w92Var.f33177d = true;
+        m70Var.f24697a = w92Var.m12168a();
+        m70Var.f24699c = context;
+        m70Var.f24698b = (ConnectivityManager) context.getSystemService("connectivity");
+        m70Var.f24700d = m70.m8212b(v50.f32409c);
+        m70Var.f24701e = ja0Var2;
+        m70Var.f24702f = ja0Var;
+        m70Var.f24703g = 130000;
+        VarHandle.storeStoreFence();
+        return m70Var;
+    }
+}
