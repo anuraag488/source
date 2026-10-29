@@ -1,0 +1,23 @@
+package p000;
+
+import java.io.Serializable;
+
+/* JADX INFO: compiled from: r8-map-id-c7a6dd88a2b5a3bd0987de47dc6d7e9548d0e3d2a056e45227e1b1f5524e3cde */
+/* JADX INFO: loaded from: classes.dex */
+public final class cp3 implements Serializable {
+
+    /* JADX INFO: renamed from: a */
+    public Throwable f16333a;
+
+    public final boolean equals(Object obj) {
+        return (obj instanceof cp3) && z62.m13387o(this.f16333a, ((cp3) obj).f16333a);
+    }
+
+    public final int hashCode() {
+        return this.f16333a.hashCode();
+    }
+
+    public final String toString() {
+        return "Failure(" + this.f16333a + ')';
+    }
+}
